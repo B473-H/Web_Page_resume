@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.details {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.about ul li {
+    margin-bottom: 8px;
+}
+.profile-pic {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-pic img {
+    width: 100px; /* ขนาดรูปภาพเล็กลง */
+    height: 100px;
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    object-fit: cover;  /* คงอัตราส่วน 1:1 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เงาของรูป */
+}
+
